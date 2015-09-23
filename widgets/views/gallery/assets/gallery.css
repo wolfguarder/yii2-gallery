@@ -1,0 +1,82 @@
+.inline-gallery-admin {
+    display: inline-block;
+    position: relative;
+    min-width: 2em;
+    min-height: 1em;
+}
+.inline-gallery-admin:hover {
+    border: 1px dashed #444444;
+}
+
+.inline-gallery-admin .btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.inline-gallery-admin .btn:focus, .inline-gallery-admin .btn:active:focus, .inline-gallery-admin .btn.active:focus, .inline-gallery-admin .btn.focus,
+.inline-gallery-admin .btn.focus:active, .inline-gallery-admin .btn.active.focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+}
+
+.inline-gallery-admin .btn:hover, .inline-gallery-admin .btn:focus, .inline-gallery-admin .btn.focus {
+    color: #333;
+    text-decoration: none;
+}
+
+.inline-gallery-admin .btn:active, .inline-gallery-admin .btn.active {
+    background-image: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    outline: 0 none;
+}
+
+.inline-gallery-admin .btn.disabled, .inline-gallery-admin .btn[disabled], .inline-gallery-admin fieldset[disabled] .btn {
+    box-shadow: none;
+    cursor: not-allowed;
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+.inline-gallery-admin .btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+
+.inline-gallery-admin .btn-success:hover, .inline-gallery-admin .btn-success:focus, .inline-gallery-admin .btn-success.focus,
+.inline-gallery-admin .btn-success:active, .inline-gallery-admin .btn-success.active, .inline-gallery-admin .open > .dropdown-toggle.btn-success {
+    background-color: #449d44;
+    border-color: #398439;
+    color: #fff;
+}
+
+.inline-gallery-admin .btn-success:active, .inline-gallery-admin .btn-success.active, .inline-gallery-admin .open > .dropdown-toggle.btn-success {
+    background-image: none;
+}
+
+.inline-gallery-admin .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.inline-gallery-admin:hover .btn {
+    display: inherit;
+}
+
+.inline-gallery-admin a.btn {
+    text-decoration: none;
+}

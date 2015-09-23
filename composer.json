@@ -1,0 +1,30 @@
+{
+    "name": "wolfguard/yii2-gallery",
+    "description": "Yii2 module for image galleries with groups",
+    "type": "yii2-extension",
+    "keywords": ["yii2","images","gallery","module"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/wolfguarder/yii2-gallery/issues",
+        "source": "https://github.com/wolfguarder/yii2-gallery"
+    },
+    "authors": [
+        {
+            "name": "Ivan Fedyaev",
+            "email": "ivan.fedyaev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "yii-dream-team/yii2-upload-behavior": "*",
+        "himiklab/yii2-easy-thumbnail-image-helper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wolfguard\\gallery\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "wolfguard\\gallery\\Bootstrap"
+    }
+}
