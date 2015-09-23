@@ -17,7 +17,18 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'Add text here.' => 'Добавьте сюда текст.',
+    'Alt' => 'Alt',
+    'Create image' => 'Добавить изображение',
+    'Gallery' => 'Галерея',
+    'Image' => 'Изображение',
+    'Image has been created' => 'Изображение было успешно добавлено',
+    'Image has been deleted' => 'Изображение было удалено',
+    'Image has been updated' => 'Изображение было изменено',
+    'Images' => 'Изображения',
+    'Manage images' => 'Управление изображениями',
+    'Sort index' => 'Индекс сортировки',
+    'There is no gallery with code "{code}"' => 'Галерея с кодом "{code}" не найдена',
+    'Update image' => 'Изменнение изображения',
     'Be careful in Code field. Pay attention to field hint.' => 'Будьте внимательны при заполнении поля Код. Обратите внимание на подсказку.',
     'Code' => 'Код',
     'Create gallery' => 'Создать галерею',
