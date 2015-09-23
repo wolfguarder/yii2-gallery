@@ -59,11 +59,13 @@ class GalleryImageSearch extends Model
 
     /**
      * @param $params
+     * @param $gallery_id
      * @return ActiveDataProvider
      */
-    public function search($params)
+    public function search($params, $gallery_id)
     {
-        $query = $this->module->manager->createGalleryImageQuery();
+        $query = $this->module->manager->createGalleryImageQuery()->where(['gallery_id' => $gallery_id]);
+
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);

@@ -148,7 +148,7 @@ class AdminController extends Controller
         $gallery = $this->findModel($id);
 
         $searchModel  = $this->module->manager->createGalleryImageSearch();
-        $dataProvider = $searchModel->search($_GET);
+        $dataProvider = $searchModel->search($_GET, $id);
 
         return $this->render('image/index', [
             'gallery' => $gallery,
