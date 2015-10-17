@@ -53,7 +53,9 @@ After that change your main configuration file ```config/web.php```
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by:
+Once the extension is installed, you can access admin area with url gallery/admin/index.
+
+To display gallery in frontend simply use this widget:
 
 ```php
 <?= \wolfguard\gallery\widgets\Gallery::widget(['code' => 'gallery-code']); ?>
